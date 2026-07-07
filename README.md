@@ -3,7 +3,7 @@ Collection of OpenCV projects covering computer vision and image processing fund
 
 ## Projects
 
-### 1. Colour Detection
+### 1. Color Detection
 - Real-time colour detection using HSV colour space.
 - Interactive threshold adjustment using OpenCV trackbars.
 - Object highlighting based on selected colour ranges.
@@ -14,7 +14,7 @@ Collection of OpenCV projects covering computer vision and image processing fund
 - Multi-colour drawing support.
 
 ### 3. Document Scanner
-- Automatic document detection using contour analysis.
+- Automatic document detection using contour analysis and perspective transformation
 - Perspective transformation to obtain a top-down scanned view.
 - Image enhancement using thresholding and adaptive preprocessing.
 
@@ -50,10 +50,13 @@ These concepts provided the foundation for larger computer vision projects, incl
 ```
 computer-vision-fundamentals/
 │
-├── 01_colour_detection/
-├── 02_virtual_painter/
-├── 03_document_scanner/
-├── 04_motion_detection/
+├── resources/
+    ├── README.md
+    ├── video.mp4
+├── 01_colour_detection.py
+├── 02_virtual_painter.py
+├── 03_document_scanner.py
+├── 04_motion_detection.py
 └── README.md
 ```
 
